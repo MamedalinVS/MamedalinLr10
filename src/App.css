@@ -1,0 +1,12 @@
+.main-container {
+    padding: 25px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.block-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    margin-top: 20px;
+}

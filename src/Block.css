@@ -1,0 +1,18 @@
+.block {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+    background-color: #f9f9f9;
+}
+
+.block:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.block-image {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
